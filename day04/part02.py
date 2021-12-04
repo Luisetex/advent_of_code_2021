@@ -127,7 +127,7 @@ if __name__ == '__main__':
                 bingo_card.check_number(drawn_number)
                 bingo_card.check_columns()
                 bingo_card.check_rows()
-                if bingo_card.has_won() and bingo_card:
+                if bingo_card.has_won():
                     winner_cards.append(bingo_card)
                     last_winner_number = drawn_number
         if not bingo_cards:
